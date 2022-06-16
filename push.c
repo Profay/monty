@@ -28,6 +28,9 @@ static int check_for_digit(char *arg)
  *
  * Return: void
  */
+var_t var;
+
+
 void m_push(stack_t **stack, unsigned int line_number)
 {
 	char *arg;
